@@ -1,0 +1,23 @@
+
+TP-projet
+
+*****
+* Objectif
+*****
+
+L'objectif principal de ce TP est de construire une API REST de reseau de transport
+en utilisant le framework Restlet. (http://restlet.com/).
+
+*****
+* API
+*****
+
+Nous souhaitons mettre en place l'API suivante:
+
+URI                     | commande   | description
+--------------------------------------------------------------------
+/voyageurs                 | GET        | retourne la liste des voyageurs
+/bus                       | GET        | retourne les états des bus
+/voyageurs                 | POST       | ajouter dynamiquement un voyageur
+/voyageurs/{voyageurId}    | GET       | recupére l'etat d'un voyageur
+
